@@ -1,6 +1,8 @@
 ## [AirportBoard.v1 Netlify](https://)
 
-Provides functionality to search for flights by such criteria as:
+After launching the application, the user can search for information about flights of the Kyiv International Sikorsky Airport
+
+search criteria :
 
 -   date
 -   direction of the flight
