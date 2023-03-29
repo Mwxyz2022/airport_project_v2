@@ -1,10 +1,10 @@
-// const options = {
-//     method: 'GET',
-//     headers: {
-//         'X-RapidAPI-Key': '8989a64740msh871ac0f5fa913c4p1e6ac0jsn5330f6aea84d',
-//         'X-RapidAPI-Host': 'flight-info-api.p.rapidapi.com',
-//     },
-// }
+const options = {
+    method: 'GET',
+    headers: {
+        'X-RapidAPI-Key': '533452ea6emsh493608de8cf1fc2p1b12c3jsn0ce2e3da1870',
+        'X-RapidAPI-Host': 'flight-info-api.p.rapidapi.com',
+    },
+}
 
 export const fetchDeparturesListData = date =>
     fetch(
