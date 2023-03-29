@@ -14,6 +14,8 @@ search criteria :
 This project did not use the original API of Sikorsky International Airport.
 Version with original API - [airport_project_v1](https://github.com/Mwxyz2022/airport_project_v1)
 
+### AirportBoard.v2
+
 In this version, the [API](https://rapidapi.com/oag-oag-default/api/flight-info-api/) is taken from the [Rapid API](https://rapidapi.com/hub) platform.
 
 However, the usage of this API is limited by the number of requests allowed per month. Once the limit of requests is reached, the application will no longer be able to provide up-to-date information.
