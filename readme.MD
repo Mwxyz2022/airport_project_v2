@@ -9,7 +9,12 @@ Provides functionality to search for flights by such criteria as:
 
 ⚠ With the Russian military invasion of the territory of Ukraine. A no-fly zone has been established over the territory of Ukraine. The search functionality works with flight data up to February 22, 2022.
 
-The project used the [API](https://api.iev.aero/api/flights) of the Kyiv International Airport. Sikorsky
+This project did not use the original API of Sikorsky International Airport.
+Version with original API - [airport_project_v1](https://github.com/Mwxyz2022/airport_project_v1)
+
+In this version, the [API](https://rapidapi.com/oag-oag-default/api/flight-info-api/) is taken from the [Rapid API](https://rapidapi.com/hub) platform.
+
+However, the usage of this API is limited by the number of requests allowed per month. Once the limit of requests is reached, the application will no longer be able to provide up-to-date information.
 
 #
 

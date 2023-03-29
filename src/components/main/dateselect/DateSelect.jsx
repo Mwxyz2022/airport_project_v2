@@ -25,9 +25,9 @@ const DateSelect = ({ getFlightsList, setSearchValue, historyDate }) => {
     const { search } = useLocation()
     const history = useHistory()
 
-    const searchValue = new URLSearchParams(search).get('search') || ''
-
     const [showCalendar, setShowCalendar] = useState(false)
+
+    const searchValue = new URLSearchParams(search).get('search') || ''
 
     const currentCalendarDate = new Date(moment(historyDate, 'DD-MM-YYYY'))
     const datepickerDate = moment(currentCalendarDate).format('DD/MM')
