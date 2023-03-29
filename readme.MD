@@ -1,4 +1,4 @@
-## [AirportBoard.v1 Netlify](https://)
+# [AirportBoard.v2 Netlify](https://)
 
 After launching the application, the user can search for information about flights of the Kyiv International Sikorsky Airport
 
@@ -18,7 +18,7 @@ In this version, the [API](https://rapidapi.com/oag-oag-default/api/flight-info-
 
 However, the usage of this API is limited by the number of requests allowed per month. Once the limit of requests is reached, the application will no longer be able to provide up-to-date information.
 
-# Project commands:
+## Project commands:
 
 -   [npm start] "Starting project"
 -   [npm run build] "Bundling project"
