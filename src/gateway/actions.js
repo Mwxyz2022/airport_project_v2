@@ -46,6 +46,9 @@ export const getFlightsList = (searchText, searchDate) => {
                 return filteredDepartureList
             })
             .then(departuresList => dispatch(departuresListRecieved(departuresList)))
+            .catch(error => {
+                throw new Error(error.message)
+            })
 
         flightsGateway
             .fetchArrivalsListData(dateForFetch)
@@ -64,6 +67,9 @@ export const getFlightsList = (searchText, searchDate) => {
                 return filteredArrivalList
             })
             .then(arrivalsList => dispatch(arrivalsListRecieved(arrivalsList)))
+            .catch(error => {
+                throw new Error(error.message)
+            })
     }
 
     return thunkAction

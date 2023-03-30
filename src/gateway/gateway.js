@@ -21,9 +21,6 @@ export const fetchDeparturesListData = date =>
             return response.json()
         })
         .then(response => response.data)
-        .catch(error => {
-            throw new Error(error.message)
-        })
 
 export const fetchArrivalsListData = date =>
     fetch(
@@ -40,6 +37,3 @@ export const fetchArrivalsListData = date =>
             return response.json()
         })
         .then(response => response.data)
-        .catch(error => {
-            throw new Error(error.message)
-        })
