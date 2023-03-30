@@ -2,9 +2,9 @@ import React from 'react'
 import { useLocation } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-import './flighttable.scss'
+import './flightTable.scss'
 
-import { terminalStyles } from './tableutils'
+import { terminalStyles } from './flightTableUtils'
 
 import * as flightListSelector from '../../../gateway/selectors'
 
